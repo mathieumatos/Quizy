@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "name": "",
+      "quizes": []
+    },
+    {
+      "name": "Programmation",
+      "quizes": [
+        {
+          "title": "IFT1005",
+          "type": "choices",
+          "results": [],
+          "questions": [
+            {
+              "question": "Dans le contexte de l'interaction dans une page web, une action prise par un usager est représentée par :",
+              "choices": [
+                "un objet",
+                "un événement",
+                "une balise",
+                "un navigateur"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quelles sont les recommandations pour améliorer l'accessibilité d'un site web :",
+              "choices": [
+                "utiliser la vidéo et le son aussi souvent que possible",
+                "ajouter une description texte des fichiers audio et vidéo qui apparaissent sur vos pages web",
+                "ne jamais utiliser d'audio ou de vidéo",
+                "aucune de ces réponses"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Quel attribut de l'élément form indique le nom et la localisation du script qui va traiter le contenu des champs du formulaire lorsqu'il est envoyé au serveur :",
+              "choices": [
+                "action",
+                "process",
+                "method",
+                "aucune de ces réponses"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "title": "IFT1015",
+          "type": "text",
+          "results": [],
+          "questions": [
+            {
+              "question": "Considérez cette fonction :\nvar quiz1 = function(a,b) {\n    print(a+b+'+'+b+a, '=',a+a+b+b);\n};\nQue produit l'exécution de : quiz1(3,2)?",
+              "answer": "5+23=10"
+            },
+            {
+              "question": "Considérez cette fonction :\nvar quiz1 = function(a,b) {\n    print(a+b+'+'+b+a, '=',a+a+b+b);\n};\nQue produit l'exécution de : quiz1('3',10)?",
+              "answer": "310+103=331010"
+            },
+            {
+              "question": "Considérez cette fonction :\nvar quiz1 = function(a,b) {\n    print(a+b+'+'+b+a, '=',a+a+b+b);\n};\nQue produit l'exécution de : quiz1(+'3',10)?",
+              "answer": "13+103=26"
+            },
+            {
+              "question": "Que produit l'exécution de :\nprint([1,2,3]+3+2)?",
+              "answer": "1,2,332"
+            }
+          ]
+        },
+        {
+          "title": "IFT1025",
+          "type": "choices",
+          "results": [],
+          "questions": [
+            {
+              "question": "Vrai ou faux.\nEn Java 3/2 vaut 1",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nUne classe déclarée par un programmeur Java est toujours la sous-classe d'une autre classe.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nUne classe déclarée en Java peut avoir plusieurs classes parents immédiats.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Vrai ou faux.\nUne instance d'une super-classe peut contenir davantage d'attributs qu'une instance de sa sous-classe.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Vrai ou faux.\nUne méthode déclarée static n'a pas accès à un this.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nOn peut déclarer une variable dont le type est une interface.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nOn ne peut pas instancier une interface (créer un objet de ce type) avec new.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nLe mot clé abstract, permet de déclarer une nouvelle méthode dans une classe sans y définir son implémentation.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nUne classe peut implémenter plusieurs interfaces et en même temps être une sous-classe d'une autre classe.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nIl est possible d'avoir deux classes A et B telles que B contient un attribut de type A et que A contient un attribut de type B.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Vrai ou faux.\nEn Java on peut définir une nouvelle classe directement à l'intérieur d'une méthode d'une autre classe ",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

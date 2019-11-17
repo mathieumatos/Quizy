@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".QuizDoneActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/activity_quiz_done_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="111dp"
+        android:layout_marginTop="113dp"
+        android:text="Terminé!"
+        android:textColor="@android:color/black"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/activity_quiz_done_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_quiz_done_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="113dp"
+        android:text="19/20"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/activity_quiz_done_stats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_quiz_done_done" />
+
+    <Button
+        android:id="@+id/activity_quiz_done_stats"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="stats"
+        android:text="Statistiques"
+        android:background="@color/darkGrey"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/activity_quiz_done_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_quiz_done_result" />
+
+    <Button
+        android:id="@+id/activity_quiz_done_menu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="mainMenu"
+        android:text="Retour au menu"
+        android:background="@color/darkBlue"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_quiz_done_stats" />
+
+</android.support.constraint.ConstraintLayout>

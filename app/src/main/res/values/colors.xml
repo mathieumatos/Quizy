@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dandelion">#e9e823</color>
+    <color name="electricBlue">#78e3fd</color>
+    <color name="turqBlue">#34f6f2</color>
+    <color name="isabelline">#f6f7eb</color>
+    <color name="header">#4392F1</color>
+    <color name="rose">#D90368</color>
+    <color name="purple">#541388</color>
+    <color name="darkBlue">#07034a</color>
+    <color name="lightBlue">#7680b2</color>
+    <color name="grey">#e8e7e4</color>
+    <color name="red">#ff1d00</color>
+    <color name="darkGrey">#7b7b79</color>
+</resources>

@@ -1,0 +1,46 @@
+{
+	"categories": [
+		{
+			"name" : "",											// First category has no name and is for quizes with no categories
+			"quizes" : [
+				{
+					"title" : "Titre du mon quiz 1",
+					"type" : "text",								// "text" or "choices"
+					"results" : [									// Result of previous attempts [0,1]
+						0.2,
+						0.3,
+						0.5
+					],
+					"questions" : [
+						{
+							"question" : "Ceci est ma question",
+							"answer" : "Ceci est ma réponse"
+						},
+						...
+					]
+				},
+				{
+					"title" : "Titre du mon quiz 2",
+					"type" : "choices",
+					"results" : [],
+					"questions" : [
+						{
+							"question" : "Ceci est ma question",
+							"choices" : [
+								"Mon choix de réponse 1",
+								"Mon choix de réponse 2",
+							],
+							"answer" : 0							// Answer position in "choices" array
+						},
+						...
+				},
+				...
+			]
+		},
+		{
+			"name" : "Le nom de ma catégorie",
+			"quizes" : [ ... ]
+		},
+		...
+	]
+}
